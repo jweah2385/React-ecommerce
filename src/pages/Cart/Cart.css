@@ -1,0 +1,167 @@
+
+main {
+  /* padding-top: 5rem; */
+  display: flex;
+}
+
+.left-cart {
+  display: flex;
+  flex-direction: column;
+  width: 65%;
+  border-radius: 8px;
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+  border-width: 0.1rem;
+}
+
+.cart-title {
+  margin-left: 0.5rem;
+  font-size: 1.6rem;
+}
+
+.cart-categories {
+  display: flex;
+  justify-content: start;
+  justify-content: space-between;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+  font-size: 1.3rem;
+  color: #404258;
+}
+
+.selected-products {
+  display: flex;
+  justify-content: start;
+  justify-content: space-between;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+}
+
+.product-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.product-name {
+  display: flex;
+  width: 15%;
+  margin-bottom: 1rem;
+  flex-direction: column;
+}
+
+.product-title {
+}
+
+.quantity-sec {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  left: -3%;
+}
+
+.price-quantity {
+  display: flex;
+  border-radius: 8px;
+  border-style: solid;
+  border-width: 0.1rem;
+  border-color: lavender;
+  width: 5rem;
+  justify-content: space-between;
+}
+
+.minus {
+  margin-left: 0.7rem;
+}
+
+.plus {
+  margin-right: 0.7rem;
+}
+
+.price-number {
+  display: flex;
+}
+
+hr {
+  color: lavender;
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+/*Right side of the page*/
+.right-cart {
+  display: flex;
+  flex-direction: column;
+  width: 35%;
+  border-radius: 8px;
+  border-style: solid;
+  margin-top: 6.5rem;
+  margin-right: 5rem;
+  height: 70%;
+  border-width: 0.08rem;
+  border-color: #bdcdd6;
+}
+
+.subtotal-bar {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+}
+
+.cost-comb {
+  display: flex;
+}
+
+.discount-bar {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+}
+
+.cost-comb-last {
+  display: flex;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.grand-total-bar {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+  font-size: 1.2rem;
+}
+
+.total-hr {
+  width: 87%;
+  color: lavender;
+}
+
+.checkout-button {
+  display: flex;
+  width: 100%;
+  text-align: center;
+  font-size: 1rem;
+  height: 3rem;
+  border-radius: 8px;
+  align-items: center;
+  position: relative;
+  color: white;
+  background-color: #176b87;
+  border-width: 0;
+  margin-bottom: 1rem;
+}
+
+.button {
+  margin-left: 1.5rem;
+  margin-right: 1.2rem;
+  text-align: center;
+}
+
+.subtotal-txt,
+.discount-txt {
+  color: #404258;
+}

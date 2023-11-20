@@ -17,18 +17,19 @@ nav {
   width: 100%;
   top: 0;
   z-index: 999;
-  padding-bottom: .5rem;
+  
 }
 
 /* Other styles remain the same... */
 
 .logo {
   display: flex;
-  
+  margin-top: .35rem;
 }
 
 h1 {
-  font-weight: 400;
+  font-weight: 600;
+ 
 }
 .main-options {
   display: flex;

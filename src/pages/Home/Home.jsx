@@ -1,8 +1,14 @@
+import logo from '../Images/titlePicture.jpg'
+import './Home.css'
+
 function Home() {
   return (
     <>
       <div>
-        <h1>Home</h1>
+        <div>
+          <img className="first-page" src={logo} />
+        </div>
+        
       </div>
     </>
   );
