@@ -1,0 +1,128 @@
+* {
+    box-sizing: border-box;
+}
+
+footer {
+  background-color: #aed8cc;
+  border-radius: 8px;
+  margin-bottom: -1.5rem;
+}
+.main-footer {
+  display: flex;
+  justify-content: space-around;
+  justify-content: space-evenly;
+  margin-top: 2.6rem;
+  margin-bottom: 3rem;
+  gap: 1rem;
+  padding-top: 1rem;
+}
+
+div h1 {
+  font-size: 1.2rem;
+  font-weight: 300;
+}
+
+div p {
+  font-size: 0.9rem;
+}
+
+.footer-fashion {
+  width: 15%;
+}
+
+.statement {
+  line-height: 1.75rem;
+  margin-top: 2.37rem;
+}
+
+.footer-fashion {
+  width: 15%;
+}
+
+.statement {
+  line-height: 1.75rem;
+  margin-top: 2.37rem;
+}
+
+.footer-contact {
+}
+
+.contact-info {
+  margin-top: 2.5rem;
+}
+
+.footer-links {
+  font-size: 1rem;
+}
+
+.links-info {
+  margin-top: 2.5rem;
+}
+.footer-sign {
+  font-size: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.sign-info {
+  margin-top: 0.7rem;
+}
+input {
+  height: 22%;
+  border-radius: 4px;
+  border-width: 0.5px;
+}
+
+button {
+  height: 17%;
+  width: 50%;
+  border-radius: 4px;
+  color: white;
+  background-color: #a5c9ca;
+  background-color: #0b666a;
+  border-width: 0.5px;
+}
+
+hr {
+  font-weight: 600;
+  background-color: #aed8cc;
+}
+
+.final {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 8%;
+  margin-right: 8%;
+  margin-top: 1.2%;
+  margin-bottom: 2.2%;
+}
+
+.copyright {
+  font-weight: lighter;
+  margin-bottom: 1.4rem;
+}
+
+.social-media {
+  display: flex;
+  gap: 50%;
+  position: relative;
+  right: 8rem;
+  margin-top: 0.6rem;
+}
+
+.facebook {
+  height: 57%;
+}
+
+.twitter {
+  height: 57%;
+}
+
+.instagram {
+  height: 57%;
+}
+
+.pinterest {
+  height: 57%;
+}
