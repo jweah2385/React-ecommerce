@@ -1,0 +1,73 @@
+
+.page {
+  display: flex;
+  width: 100%;
+  gap: 1rem;
+  
+}
+
+.left-side {
+  padding-left: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 0.8rem;
+  border-radius: 8px;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+}
+
+.contact-us {
+  font-size: 2.3rem;
+  height: 3.5rem;
+  font-weight: 500;
+  margin-top: 0.5rem;
+  margin-bottom: -0.5rem;
+  padding-bottom: 0rem;
+}
+
+.email-address {
+  width: 100%;
+  height: 3.5rem;
+}
+
+.reasons {
+  width: 100%;
+  height: 3.5rem;
+}
+
+.details {
+  width: 100%;
+  height: 10.5rem;
+}
+
+
+.contact-button {
+  height: 3.5rem;
+  width: 100%;
+  font-size: 1.3rem;
+}
+
+.right-side {
+  display: flex;
+  flex-direction: column;
+  width: 100%; 
+  border-radius: 8px;
+  margin-right: 0.5rem;
+}
+
+.call-to-action {
+  font-size: 2.5rem;
+  position: relative;
+  font-weight: 500;
+}
+
+
+@media ((max-width: 800px)) {
+    .page {
+        flex-wrap: wrap;
+    }
+    .right-side {
+        margin-left: .9rem;
+    }
+}
