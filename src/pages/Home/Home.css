@@ -1,3 +1,173 @@
-.first-page {
+.first-page-image {
     width: 100%;
+}
+
+/*Second Page*/
+.second-page {
+  /* display: flex; */
+  display: flex;
+  flex-direction: column;
+  /* margin-top: 6rem; */
+  /* justify-content: center; */
+  /* align-items: center; */
+  /* padding-left: 1rem; */
+  /* margin-top: 1.5rem; */
+  /* margin-bottom: 2rem; */
+}
+
+/* Clothing collleciton  */
+.clothing {
+  /* display: flex;
+  position: relative; */
+  /* left: 16rem; */
+  display: flex;
+  position: relative;
+  left: 10rem;
+  top: 5rem;
+  color: #F6635C;
+}
+
+
+ .clothes-collection {
+  /* display: flex;
+  flex-direction: column;
+  margin-top: 6rem;
+  position: relative;
+  left: 31.5rem;
+  z-index: 2; */
+  /* z-index: 2;
+  display: flex;
+  flex-direction: column; */
+  /* gap: 0.1rem; */
+  /* position: relative;
+  left: 10rem;
+  top: 8rem; */
+  display: flex;
+  flex-direction: column;
+  z-index: 2;
+  position: relative;
+  left: 4rem;
+  top: 5rem;
+} 
+
+ .clothes-sec {
+  font-size: 2.2rem;
+}
+
+.clothes-sec1 {
+  font-size: 2.2rem;
+  margin-top: -1.3rem;
+} 
+
+.clothes-sec2 {
+  display: flex;
+  margin-top: -1rem;
+  font-weight: 100;
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+
+.women-in-brown {
+  /* height: 40%;
+  width: 10%; */
+  /* height: 25rem;
+  border-radius: 8px;
+  position: relative;
+  left: 29rem; */
+  height: 25rem;
+  border-radius: 8px;
+ /* position: relative;
+  left: 15rem;
+  bottom: 6rem; */
+}
+
+/* Accessories Section  */
+.asr-portion {
+  /* display: flex;
+  flex-direction: column;
+  position: relative;
+  right: 17rem;
+  top: 18.5rem; */
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  right: 14.3rem;
+  bottom: 2.5rem;
+  color: #F6635C;
+}
+
+.girl-with-glasses {
+  height: 25rem;
+  border-radius: 8px;
+  /* position: relative; */
+}
+
+.accessories {
+  display: flex;
+  font-size: 2.2rem;
+}
+
+.shop-now {
+  display: flex;
+  margin-top: -1rem;
+  font-weight: 100;
+  text-decoration: underline;
+  text-underline-offset: 4px;
+  color: #F6635C;
+}
+
+/* Shoes Section */
+.shoes-portion {
+  /* display: flex;
+  position: relative;
+  top: 30rem;
+  right: 14.5rem; */
+  display: flex;
+  position: relative;
+  left: 8rem;
+  bottom: 23rem; 
+  
+}
+
+.shoes-text {
+  width: 50%;
+  z-index: 2;
+  position: relative;
+  top: 7rem;
+  left: 6rem;
+  color: #F6635C;
+
+}
+
+.shoes-spring {
+  font-size: 2.2rem;
+  z-index: 3;
+  /* width: 13rem; */
+  color: #F6635C;
+}
+
+.shoes-date {
+  position: relative;
+  top: -1.5rem;
+  font-size: 2.2rem;
+  z-index: 2;
+  
+}
+.shoes-img {
+  height: 25.7rem;
+  border-radius: 8px;
+  /* position: relative;
+  right: 5rem;
+  z-index: 1; */ 
+}
+
+.shoes-shop {
+  display: flex;
+  margin-top: -1rem;
+  font-weight: 100;
+  text-decoration: underline;
+  text-underline-offset: 4px;
+  position: relative;
+  top: -1.5rem;
+  color: #F6635C;
 }
