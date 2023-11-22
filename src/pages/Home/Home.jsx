@@ -33,7 +33,7 @@ function Home() {
           src={womenWithGlasses}
           alt="girl-with-glasses"
         />
-        <div className="">
+        <div className="asr-text">
           <h1 className="accessories">Accessories</h1>
           <p className="shop-now">SHOP NOW</p>
         </div>
@@ -48,7 +48,7 @@ function Home() {
       </div> 
     </section>
         </section>
-        <section><h1>Hello</h1></section>
+
       </div>
     </>
   );

@@ -126,3 +126,13 @@ hr {
 .pinterest {
   height: 57%;
 }
+
+
+@media ((max-width: 900px)) {
+  .main-footer {
+    flex-wrap: wrap;
+  }
+  .final {
+    flex-wrap: wrap;
+  }
+}
