@@ -138,6 +138,26 @@ hr {
 
 }
 
+@media ((max-width: 650px )) {
+  .main-footer {
+    flex-wrap: wrap;
+  }
+
+  .final {
+    flex-wrap: wrap; 
+    /* width: 100%; */
+  }
+
+  .social-media {
+   /* padding-right: 10rem; */
+  }
+
+  .social-media, .facebook, .twitter, .instagram , .pinterest {
+
+  }
+
+}
+
 @media ((max-width: 500px)) {
   .social-media {
     position: relative;

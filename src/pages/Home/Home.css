@@ -169,7 +169,7 @@
 }
 
 .products-home:hover {
-  
+
 }
 
 
@@ -228,6 +228,7 @@
   justify-content: center;
   font-size: 2.8rem;
   color: white;
+  padding-left: .6rem;
 }
 
 .connect-mes {
@@ -535,6 +536,15 @@
     justify-content: center;
   }
 
+.second-half-home {
+ 
+}
+
+.lady-in-blue {
+  padding-left: 4rem;
+  padding-right: 4rem;
+}
+
   .shoes-img-home {
   position: relative;
   bottom: 0rem;
@@ -656,7 +666,12 @@
   }
 
   .purchase-headers-home {
-    /* gap: 2rem; */
+    gap: 2rem;
+  }
+
+  .brands {
+    gap: 1.5rem;
+    padding-left:2rem;
   }
 }
 

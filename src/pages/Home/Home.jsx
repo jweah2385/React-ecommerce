@@ -5,7 +5,6 @@ import womenWithGlasses from '../Images/HompagePhotos/women-with-glasses.jpg';
 import Clothes from '../../Utils/Clothes';
 import aboutPortrait from '../Images/HompagePhotos/women-in-black.png'
 
-
 import './Home.css';
 
 function Home() {
@@ -152,6 +151,7 @@ function Home() {
             </p>
           </div>
         </section>
+       
       </div>
     </>
   );

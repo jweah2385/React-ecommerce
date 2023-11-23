@@ -7,11 +7,18 @@ body {
   padding-top: 4.1rem; 
 }
 
+.responsive-menu {
+  /* display: none; */
+  background-color: #f1f6f9;
+  margin-top: -.35rem;
+  margin-bottom: -.2rem;
+}
+
 .responsive-options {
   display: none;
 }
 
-nav {
+.nav-bar {
   display: flex;
   justify-content: space-around;
   text-align: center;
@@ -53,6 +60,29 @@ a {
   gap: 1.5rem;
 }
 
+.hamburger-nav {
+
+}
+
+.responsive-menue {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.re-menue {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  line-height: 2.5;
+}
+
+@media ((min-width: 700px)) {
+  .responsive-menu {
+    display: none;
+  }
+}
+
 @media ((max-width: 700px)) {
 
   .main-options {
@@ -75,5 +105,23 @@ a {
     flex-direction: column;
     width: 1.5rem;
     top: 1.3rem;
+  }
+
+.responsive-menue {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.re-menue {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  line-height: 2.5;
+}
+
+  /*Practice Screen Off*/
+  .front-page-img-men {
+    
   }
 }

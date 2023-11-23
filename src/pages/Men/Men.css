@@ -1,5 +1,4 @@
 
-
 .front-container {
 }
 
@@ -175,4 +174,9 @@
   margin-left: 1.5rem;
   margin-top: 1.5rem;
   }
+}
+
+
+.third-page-men {
+  display: none;
 }

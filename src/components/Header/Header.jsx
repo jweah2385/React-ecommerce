@@ -1,15 +1,27 @@
 import './Header.css'
 import { Link } from 'react-router-dom';
 import hamburger from '../Images/Misc/hamburger.png'
+import { useState } from 'react';
+
+
+
 
 function Header() {
+  const [navDown, setNav] = useState('false');
+
+
+  const hamburgerOp = () => {
+      setNav(!navDown);
+
+      console.log(navDown);
+  }
+
   return (
     <>
       <div>
         <nav className="nav-bar">
           <div className="logo">
             <Link to="/">
-              {' '}
               <h1>Fashion</h1>
             </Link>
           </div>
@@ -53,12 +65,39 @@ function Header() {
             </div>
             <Link to="/cart">$0.00</Link>
           </div>
-          <div className='responsive-options'>
-            <div className='options-buttons'>
-              <img src={hamburger} />
-            </div>  
+          <div className="responsive-options">
+            <div className="options-buttons">
+              <img  onClick={hamburgerOp} src={hamburger} />
+            </div>
           </div>
         </nav>
+       {navDown ? (
+
+        <nav>
+          <div>
+            <ul className="responsive-menu">
+              <Link to="/home">
+                <li className="re-menue">Home</li>
+              </Link>
+              <Link to="/men">
+                <li className="re-menue">Men</li>
+              </Link>
+              <Link to="/women">
+                <li className="re-menue">Women</li>
+              </Link>
+              <Link to="/contact">
+                <li className="re-menue">Contact</li>
+              </Link>
+              <Link to="/cart">
+                <li className='re-menue'>Cart</li>
+              </Link>
+            </ul>
+          </div>
+        </nav>
+       ) : (
+         <></>
+       )}
+       
       </div>
     </>
   );
