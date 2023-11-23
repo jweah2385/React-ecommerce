@@ -135,4 +135,12 @@ hr {
   .final {
     flex-wrap: wrap;
   }
+
+}
+
+@media ((max-width: 500px)) {
+  .social-media {
+    position: relative;
+    left: 30%;
+  }
 }

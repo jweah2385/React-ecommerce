@@ -1,6 +1,6 @@
 import './Header.css'
 import { Link } from 'react-router-dom';
-
+import hamburger from '../Images/Misc/hamburger.png'
 
 function Header() {
   return (
@@ -52,6 +52,11 @@ function Header() {
               </Link>
             </div>
             <Link to="/cart">$0.00</Link>
+          </div>
+          <div className='responsive-options'>
+            <div className='options-buttons'>
+              <img src={hamburger} />
+            </div>  
           </div>
         </nav>
       </div>

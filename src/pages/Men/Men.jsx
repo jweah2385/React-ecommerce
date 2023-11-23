@@ -10,10 +10,10 @@ function Men() {
   return (
     <>
       <div>
-        <section className="first-page">
+        <section className="first-page-men">
           <div className="front-container">
             <img
-              className="front-page-img"
+              className="front-page-img-men"
               src={shoping}
               alt="main-in-glasses"
             />
@@ -21,32 +21,32 @@ function Men() {
           </div>
           <h1 className="shop-men">Shop / Men</h1>
         </section>
-        <section className="second-page">
-          <div className="atire-categories">
+        <section className="second-page-men">
+          <div className="atire-categories-men">
             <div>
-              <img className="images" src={dressy} alt="" />
+              <img className="images-men" src={dressy} alt="" />
               <p>Dressy</p>
             </div>
             <div>
-              <img className="images" src={tops} alt="" />
+              <img className="images-men" src={tops} alt="" />
               <p>Tops</p>
             </div>
             <div>
-              <img className="images" src={pants} alt="" />
+              <img className="images-men" src={pants} alt="" />
               <p>Bottoms</p>
             </div>
             <div>
-              <img className="images" src={athletic} alt="" />
+              <img className="images-men" src={athletic} alt="" />
               <p>sportware</p>
             </div>
             <div>
-              <img className="images" src={athletic} alt="" />
+              <img className="images-men" src={athletic} alt="" />
               <p>sportware</p>
             </div>
           </div>
         </section>
-        <section className="third-page">
-          <div className="filter">
+        <section className="third-page-men">
+          <div className="filter-men">
             <div>
               <p>Category</p>
             </div>
@@ -61,7 +61,7 @@ function Men() {
               <p>Other</p>
             </div>
           </div>
-          <div className="products-container">
+          <div className="products-container-men">
             <div>
               <div>
                 <p>There are 30 results in total</p>
@@ -71,15 +71,15 @@ function Men() {
             <div className="all-products">
               {Clothes.map((item) => (
                 <div key={item.id}>
-                  <div className="products">
-                    <div className="img-container">
-                      <div className="products-title">
-                        <p className="products-text">{item.name}</p>
+                  <div className="products-men">
+                    <div className="img-container-men">
+                      <div className="products-title-men">
+                        <p className="products-text-men">{item.name}</p>
                       </div>
-                      <img src={item.imageURL} className="clothes-images" />
-                      <div className='cost-category'>
-                        <div className="products-text2">{item.category}</div>
-                        <p className="products-text">{item.cost}</p>
+                      <img src={item.imageURL} className="clothes-images-men" />
+                      <div className='cost-category-men'>
+                        <div className="products-text2-men">{item.category}</div>
+                        <p className="products-text-men">{item.cost}</p>
                       </div>
                     </div>
                   </div>

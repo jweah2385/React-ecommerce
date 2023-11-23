@@ -3,15 +3,15 @@
 .front-container {
 }
 
-.shop-option {
+/* .shop-option {
   display: flex;
   justify-content: center;
   position: relative;
   color: white;
-  /* bottom: 11.2rem; */
-  font-size: 2.2rem;
-}
 
+  font-size: 2.2rem;
+} */
+/* 
 .Options {
   position: relative;
   display: flex;
@@ -23,9 +23,9 @@
   gap: 0.3rem;
   margin-bottom: 0px;
   padding-bottom: 0px;
-  /* flex-direction: column; */
-}
-.front-page-img {
+ 
+} */
+.front-page-img-men {
   width: 100%;
   height: auto;
 }
@@ -40,14 +40,14 @@
   color: black;
 }
 /*Second Page*/
-.second-page {
+.second-page-men {
   display: flex;
   justify-content: center;
   align-items: center;
   /* margin-top: 6rem; */
 }
 
-.atire-categories {
+.atire-categories-men {
   display: flex;
   gap: 0rem;
   position: relative;
@@ -57,25 +57,26 @@
   /* left: 2%; */
 }
 
-.images {
+.images-men {
   height: auto;
   width: 82%;
   border-radius: 8px;
 }
 
 /* Producs Page */
-.third-page {
+.third-page-men {
   display: flex;
+  flex-direction: row;
 }
 
-.filter {
+.filter-men {
   display: flex;
   flex-direction: column;
   width: 20%;
   padding-left: 4%;
 }
 
-.products-container {
+.products-container-men {
   display: flex;
   flex-direction: column;
   width: 100%;
@@ -83,26 +84,28 @@
 
 
 
+
+
 /* ... (Previous CSS remains unchanged) */
 
-.all-products {
+.all-products-men {
   display: grid;
   grid-template-rows:  1fr 1fr ;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   row-gap: 3rem;
   column-gap: 4rem;
   margin-right: 1.9rem;
+  
 }
 
-.products {
+.products-men {
   background-color: #f9f9f9;
   border-radius: 10px;
-  /* width: 80%; */
 }
 
 
 
-.clothes-images {
+.clothes-images-men {
   width: 95%;
   height: auto;
   object-fit: cover;
@@ -110,31 +113,29 @@
   padding-left: 4%;
 }
 
-.products-text2 {
+.products-text2-men {
   font-size: 1rem;
 }
 
 
 
-.products-title {
+.products-title-men {
   display: flex;
   justify-content: center
-  /* padding-left: 20.5%;
-  padding-right: 20.5%; */
 }
 
-.products-text {
+.products-text-men {
   font-size: 1.2rem;
 }
 
-.products-text2 {
+.products-text2-men {
   font-size: 1.2rem;
   display: flex;
   position: relative;
   top: 1.2rem;
 }
 
-.cost-category {
+.cost-category-men {
   display: flex;
   justify-content: space-between;
   justify-content: center;
@@ -143,7 +144,7 @@
 
 
 @media ((max-width: 980px)) {
-  .all-products {
+  .all-products-men {
   grid-template-rows:  1fr 1fr 1fr;
   grid-template-columns: 1fr 1fr 1fr ;
   row-gap: 2rem;
@@ -154,7 +155,7 @@
 }
 
 @media ((max-width: 700px)) {
-  .all-products {
+  .all-products-men {
   grid-template-rows:  1fr 1fr 1fr 1fr;
   grid-template-columns: 1fr 1fr ;
   row-gap: 1.5rem;
@@ -165,7 +166,7 @@
 }
 
 @media ((max-width: 500px)) {
-  .all-products {
+  .all-products-men {
   grid-template-rows:  1fr 1fr 1fr 1fr 1fr;
   grid-template-columns: 1fr  ;
   row-gap: 1.5rem;

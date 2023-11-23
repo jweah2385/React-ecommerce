@@ -7,6 +7,10 @@ body {
   padding-top: 4.1rem; 
 }
 
+.responsive-options {
+  display: none;
+}
+
 nav {
   display: flex;
   justify-content: space-around;
@@ -47,4 +51,29 @@ a {
   display: flex;
   margin-top: 1.5rem;
   gap: 1.5rem;
+}
+
+@media ((max-width: 700px)) {
+
+  .main-options {
+    display: none;
+  }
+
+  .inventory {
+    display: none;
+  }
+
+  .responsive-options {
+    display:contents;
+  }
+
+  .options-buttons {
+    position: relative;
+    
+   
+    display: flex;
+    flex-direction: column;
+    width: 1.5rem;
+    top: 1.3rem;
+  }
 }
