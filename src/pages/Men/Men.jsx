@@ -67,7 +67,6 @@ function Men() {
                 <p>There are 30 results in total</p>
               </div>
             </div>
-
             <div className="all-products">
               {Clothes.map((item) => (
                 <div key={item.id}>
