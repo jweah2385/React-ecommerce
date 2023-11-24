@@ -3,7 +3,7 @@ import calvinShoes from '../Images/HompagePhotos/calvin-shoes.jpg';
 import womenInTee from '../Images/HompagePhotos/women-in-brown.jpg';
 import womenWithGlasses from '../Images/HompagePhotos/women-with-glasses.jpg';
 import Clothes from '../../Utils/Clothes';
-import aboutPortrait from '../Images/HompagePhotos/women-in-black.png'
+import aboutPortrait from '../Images/HompagePhotos/women-in-black.jpg'
 
 import './Home.css';
 

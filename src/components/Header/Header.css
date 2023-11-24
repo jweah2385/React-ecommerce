@@ -7,11 +7,13 @@ body {
   padding-top: 4.1rem; 
 }
 
-.responsive-menu {
+.responsive-menue {
   /* display: none; */
   background-color: #f1f6f9;
   margin-top: -.35rem;
   margin-bottom: -.2rem;
+  margin-right: 0rem;
+  
 }
 
 .responsive-options {
@@ -28,7 +30,7 @@ body {
   width: 100%;
   top: 0;
   z-index: 999;
-  
+  padding-bottom: .5rem;
 }
 
 /* Other styles remain the same... */
@@ -49,6 +51,8 @@ h1 {
   margin-top: 1.5rem;
 }
 
+
+
 a {
   text-decoration: none;
   color: black;
@@ -68,6 +72,7 @@ a {
   display: flex;
   justify-content: center;
   text-align: center;
+  padding-right: 1.5rem;
 }
 
 .re-menue {
@@ -78,7 +83,7 @@ a {
 }
 
 @media ((min-width: 700px)) {
-  .responsive-menu {
+  .responsive-menue {
     display: none;
   }
 }
@@ -111,13 +116,14 @@ a {
   display: flex;
   justify-content: center;
   text-align: center;
+  flex-direction: column;
 }
 
 .re-menue {
   display: flex;
   text-align: center;
   justify-content: center;
-  line-height: 2.5;
+  line-height: 2.2;
 }
 
   /*Practice Screen Off*/

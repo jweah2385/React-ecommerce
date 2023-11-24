@@ -10,10 +10,14 @@ function Header() {
   const [navDown, setNav] = useState('false');
 
 
+
   const hamburgerOp = () => {
       setNav(!navDown);
-
       console.log(navDown);
+  }
+
+  const closeNaveBar = () => {
+    console.log("hello")
   }
 
   return (
@@ -73,10 +77,10 @@ function Header() {
         </nav>
        {navDown ? (
 
-        <nav>
-          <div>
-            <ul className="responsive-menu">
-              <Link to="/home">
+        <nav >
+          <div  >
+            <ul onClick={hamburgerOp} className="responsive-menue">
+              <Link to="/">
                 <li className="re-menue">Home</li>
               </Link>
               <Link to="/men">
@@ -97,7 +101,6 @@ function Header() {
        ) : (
          <></>
        )}
-       
       </div>
     </>
   );
