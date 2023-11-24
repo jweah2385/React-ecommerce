@@ -15,6 +15,7 @@ const Clothes = [
     imageURL: jeanJacket,
     cost: '$40.00',
     category: 'Top',
+    test: 'hello',
   },
   {
     id: '2',
@@ -22,6 +23,7 @@ const Clothes = [
     imageURL: beigeBlazer,
     cost: '$30.00',
     category: 'Top',
+    test: 'hello',
   },
   {
     id: '3',
@@ -29,6 +31,7 @@ const Clothes = [
     imageURL: poncho,
     cost: '$15.00',
     category: 'Top',
+    test: 'hello',
   },
   {
     id: '4',
@@ -36,13 +39,15 @@ const Clothes = [
     imageURL: newBalanceShoe,
     cost: '$80.00',
     category: 'Shoes',
+    test: 'hello',
   },
   {
     id: '5',
     name: 'TH Glasses',
     imageURL: clearGlasses,
     cost: '$50.00',
-    category: 'Accessory',
+    category: 'Accessories',
+    test: 'hello',
   },
   {
     id: '6',
@@ -50,6 +55,7 @@ const Clothes = [
     imageURL: orangT,
     cost: '$20.00',
     category: 'Top',
+    test: 'hello',
   },
   {
     id: '7',
@@ -57,14 +63,15 @@ const Clothes = [
     imageURL: whiteShoes,
     cost: '$90.00',
     category: 'Shoes',
+    test: 'hello',
   },
   {
     id: '8',
     name: 'Black BP',
     imageURL: blackBackPack,
     cost: '$30.00',
-    category: 'Accessory',
+    category: 'Accessories',
+    test: 'hello',
   },
- 
 ];
 export default Clothes;

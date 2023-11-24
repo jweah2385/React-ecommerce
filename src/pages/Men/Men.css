@@ -54,6 +54,11 @@
   padding-left: 4%;
 }
 
+.user-filter {
+  display: flex;
+  flex-direction: column;
+}
+
 .products-container-men {
   display: flex;
   flex-direction: column;
