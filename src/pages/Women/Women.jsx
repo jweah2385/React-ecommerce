@@ -23,23 +23,23 @@ function Women() {
         </section>
         <section className="second-page">
           <div className="atire-categories">
-            <div>
+            <div className="each-category">
               <img className="images" src={dressy} alt="" />
               <p>Dressy</p>
             </div>
-            <div>
+            <div className="each-category">
               <img className="images" src={tops} alt="" />
               <p>Tops</p>
             </div>
-            <div>
+            <div className="each-category">
               <img className="images" src={pants} alt="" />
               <p>Bottoms</p>
             </div>
-            <div>
+            <div className="each-category">
               <img className="images" src={athletic} alt="" />
               <p>sportware</p>
             </div>
-            <div>
+            <div className="each-category">
               <img className="images" src={athletic} alt="" />
               <p>sportware</p>
             </div>

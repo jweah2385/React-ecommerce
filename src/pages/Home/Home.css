@@ -532,6 +532,15 @@
 }
 }
 
+
+.products-home {
+  transition: transform 0.3s;
+}
+
+.products-home:hover {
+  transform: scale(1.05);
+}
+
 @media ((max-width: 750px)) {
   .second-page-home {
     flex-direction: column;

@@ -167,3 +167,22 @@
 }
 
 
+.products-men {
+  /* Other CSS styles for .products-men */
+
+  /* Adding transition for smooth scaling */
+  transition: transform 0.3s;
+}
+
+.products-men:hover {
+  /* Scale up on hover */
+  transform: scale(1.05); /* Adjust the scaling factor as needed */
+}
+
+.each-category {
+  transition: transform 0.3s;
+}
+
+.each-category:hover {
+  transform: scale(1.05);
+}
