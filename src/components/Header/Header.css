@@ -82,6 +82,16 @@ a {
   line-height: 2.5;
 }
 
+.re-menue:hover {
+  cursor: pointer;
+}
+
+.main-options:hover, .search-icon:hover, .bag-icon:hover, .heart-icon:hover, .cost-icon:hover{
+  cursor:pointer;
+}
+
+
+
 @media ((min-width: 700px)) {
   .responsive-menue {
     display: none;

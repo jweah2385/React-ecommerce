@@ -23,23 +23,23 @@ function Men() {
         </section>
         <section className="second-page-men">
           <div className="atire-categories-men">
-            <div>
+            <div className="each-category">
               <img className="images-men" src={dressy} alt="" />
               <p>Dressy</p>
             </div>
-            <div>
+            <div className="each-category">
               <img className="images-men" src={tops} alt="" />
               <p>Tops</p>
             </div>
-            <div>
+            <div className="each-category">
               <img className="images-men" src={pants} alt="" />
               <p>Bottoms</p>
             </div>
-            <div>
+            <div className="each-category">
               <img className="images-men" src={athletic} alt="" />
               <p>sportware</p>
             </div>
-            <div>
+            <div className="each-category">
               <img className="images-men" src={athletic} alt="" />
               <p>sportware</p>
             </div>
@@ -76,8 +76,10 @@ function Men() {
                         <p className="products-text-men">{item.name}</p>
                       </div>
                       <img src={item.imageURL} className="clothes-images-men" />
-                      <div className='cost-category-men'>
-                        <div className="products-text2-men">{item.category}</div>
+                      <div className="cost-category-men">
+                        <div className="products-text2-men">
+                          {item.category}
+                        </div>
                         <p className="products-text-men">{item.cost}</p>
                       </div>
                     </div>

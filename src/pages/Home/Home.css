@@ -33,6 +33,10 @@
   border-radius: 8px;
 }
 
+.clothes-collection-home:hover,.products-home:hover, .asr-text-home:hover, .shoes-text-home:hover {
+  cursor: pointer;
+}
+
  .clothes-collection-home {
   display: flex;
   flex-direction: column;
