@@ -144,7 +144,7 @@ hr {
   }
 
   .final {
-    flex-wrap: wrap; 
+    /* flex-wrap: wrap;  */
     /* width: 100%; */
   }
 
@@ -160,7 +160,7 @@ hr {
 
 @media ((max-width: 500px)) {
   .social-media {
-    position: relative;
-    left: 30%;
+    /* position: relative;
+    left: 30%; */
   }
 }

@@ -41,7 +41,8 @@ function Footer() {
         <div>
           <p className="copyright">Copyright © 2023 Fashion All Rights Reserved.</p>
         </div>
-        <div className="social-media">
+        
+        {/* <div className="social-media">
           <div className="">
             <svg
               className="facebook"
@@ -90,7 +91,7 @@ function Footer() {
               />
             </svg>
           </div>
-        </div>
+        </div> */}
       </div>
     </footer>
     </>
