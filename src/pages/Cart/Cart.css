@@ -2,6 +2,7 @@
 main {
   /* padding-top: 5rem; */
   display: flex;
+  height: 100vh;
 }
 
 .left-cart {
@@ -98,7 +99,7 @@ hr {
   border-style: solid;
   margin-top: 6.5rem;
   margin-right: 5rem;
-  height: 70%;
+  height: 20%;
   border-width: 0.08rem;
   border-color: #bdcdd6;
 }
@@ -165,6 +166,8 @@ hr {
 .discount-txt {
   color: #404258;
 }
+
+
 
 @media ((max-width: 800px)) {
   main {

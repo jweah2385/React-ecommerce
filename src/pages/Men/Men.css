@@ -8,6 +8,8 @@
   height: auto;
 }
 
+
+
 .shop-men {
   display: flex;
   justify-content: center;
@@ -57,6 +59,15 @@
 .user-filter {
   display: flex;
   flex-direction: column;
+  
+}
+
+.user-filter select {
+  position: relative;
+  top: .2rem;
+  margin-right: .5rem;
+  border-radius: 8px;
+  height: 1.5rem;
 }
 
 .products-container-men {
