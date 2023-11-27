@@ -5,6 +5,7 @@ import womenWithGlasses from '../Images/HompagePhotos/women-with-glasses.jpg';
 import Clothes from '../../Utils/Clothes';
 import aboutPortrait from '../Images/HompagePhotos/women-in-black.jpg'
 
+
 import './Home.css';
 
 function Home() {

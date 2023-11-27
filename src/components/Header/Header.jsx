@@ -1,22 +1,29 @@
 import './Header.css'
 import { Link } from 'react-router-dom';
 import hamburger from '../Images/Misc/hamburger.png'
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 
 
 
 
 function Header() {
+
+  
+
   const [navDown, setNav] = useState('false');
 
-
+  useEffect(() => {
+    setNav(!navDown)
+  }, [10]);
 
   const hamburgerOp = () => {
       setNav(!navDown);
       console.log(navDown);
   }
-
-
+  
+  setTimeout(() => {
+      setNav(false)
+  }, 5000)
 
   return (
     <>
