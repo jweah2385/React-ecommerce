@@ -10,10 +10,13 @@ body {
 .responsive-menue {
   /* display: none; */
   background-color: #f1f6f9;
-  margin-top: -.35rem;
+  /* margin-top: -.35rem;
   margin-bottom: -.2rem;
-  margin-right: 0rem;
-  
+  margin-right: 0rem; */
+  margin: 0 auto;
+  position: fixed;
+  z-index: 100;
+  width: 100vw;
 }
 
 .responsive-options {

@@ -41,8 +41,6 @@ function Women() {
     console.log(userChoice);
   };
 
-
-
   return (
     <>
       <div>
@@ -82,8 +80,8 @@ function Women() {
           </div>
         </section>
         <section className="third-page">
-          <div className="filter">
-            <div className="user-filter">
+          <div className="filter-women">
+            <div className="user-filter-women">
               <label htmlFor="women-products">Category</label>
               <select
                 name="products"
@@ -92,19 +90,14 @@ function Women() {
                 value={selectedCategory}
               >
                 <option>All</option>
-                <option>Dressy</option>
+                {/* <option>Dressy</option> */}
                 <option>Tops</option>
-                <option>Pants</option>
-                <option>Athletic</option>
+                {/* <option>Pants</option> */}
+                {/* <option>Athletic</option> */}
                 <option>Accessories</option>
                 <option>Shoes</option>
               </select>
             </div>
-
-            <div>
-              <p>Category</p>
-            </div>
-
             <div>
               <p>Availiablity</p>
             </div>
@@ -116,7 +109,7 @@ function Women() {
             </div>
           </div>
           
-            <div className="products-container-men">
+            <div className="products-container-women">
               <div>
                 <div>
                   <p>There are 30 results in total</p>

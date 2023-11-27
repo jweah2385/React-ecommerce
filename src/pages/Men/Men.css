@@ -62,7 +62,7 @@
   
 }
 
-.user-filter select {
+.user-filter-men select {
   position: relative;
   top: .2rem;
   margin-right: .5rem;
@@ -76,7 +76,9 @@
   width: 100%;
 }
 
-
+.products-container-men > div {
+  margin-left: 0rem;
+}
 
 .products-men:hover {
   cursor: pointer;
@@ -175,6 +177,9 @@
   margin-left: 1.5rem;
   margin-top: 1.5rem;
   }
+  .products-container-men > div {
+  margin-left: 2.5rem;
+}
 }
 
 

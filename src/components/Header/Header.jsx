@@ -21,9 +21,9 @@ function Header() {
       console.log(navDown);
   }
   
-  setTimeout(() => {
-      setNav(false)
-  }, 5000)
+  // setTimeout(() => {
+  //     setNav(false)
+  // }, 5000)
 
   return (
     <>

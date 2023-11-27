@@ -68,14 +68,24 @@
   display: flex;
 }
 
-.filter {
+
+
+.filter-women {
   display: flex;
   flex-direction: column;
   width: 20%;
   padding-left: 4%;
 }
 
-.products-container {
+.user-filter-women select {
+  position: relative;
+  top: .2rem;
+  margin-right: .5rem;
+  border-radius: 8px;
+  height: 1.5rem;
+}
+
+.products-container-women {
   display: flex;
   flex-direction: column;
   width: 100%;

@@ -2,7 +2,7 @@
 main {
   /* padding-top: 5rem; */
   display: flex;
-  height: 100vh;
+  /* height: 100vh; */
 }
 
 .left-cart {
@@ -102,6 +102,7 @@ hr {
   height: 20%;
   border-width: 0.08rem;
   border-color: #bdcdd6;
+  margin-bottom: 25rem;
 }
 
 .subtotal-bar {
@@ -193,6 +194,14 @@ hr {
   margin-top: 1rem;
   margin-right: 1rem;
   margin-left: 1rem;
-  height: 70%;
+  height: 20%;
+  }
+}
+
+@media ((max-width: 600px)) {
+  
+  
+  .right-cart {
+    margin-bottom: 0rem;
   }
 }

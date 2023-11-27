@@ -84,7 +84,7 @@ function Men() {
         </section>
         <section className="third-page-men">
           <div className="filter-men">
-            <div className="user-filter">
+            <div className="user-filter-men">
               <label htmlFor="men-products">Category</label>
               <select
                 name="products"
@@ -93,10 +93,10 @@ function Men() {
                 value={selectedCategory}
               >
                 <option>All</option>
-                <option>Dressy</option>
+                {/* <option>Dressy</option> */}
                 <option>Tops</option>
-                <option>Pants</option>
-                <option>Athletic</option>
+                {/* <option>Pants</option> */}
+                {/* <option>Athletic</option> */}
                 <option>Accessories</option>
                 <option>Shoes</option>
               </select>
