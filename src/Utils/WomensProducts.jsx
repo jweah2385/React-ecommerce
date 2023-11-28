@@ -1,7 +1,7 @@
 import blueHeels from '../pages/Images/WomenProducts/blue-heels.jpg'
 import blueJacket from '../pages/Images/Attire/blue-jacket.jpg';
-import blueJeans from '../pages/Images/WomenProducts/blue-jeans.jpg';
-import brownBag from '../pages/Images/WomenProducts/brown-bag.jpg';
+// import blueJeans from '../pages/Images/WomenProducts/blue-jeans.jpg';
+// import brownBag from '../pages/Images/WomenProducts/brown-bag.jpg';
 import cargoPants from '../pages/Images/WomenProducts/cargo-pants.jpg'
 import glasses from '../pages/Images/WomenProducts/glasses.jpg';
 import greySweater from '../pages/Images/WomenProducts/grey-sweater.jpg';
@@ -29,20 +29,20 @@ const WomenProducts = [
     cost: '$40.00',
     category: '',
   },
-  {
-    id: '3',
-    name: 'Blue Jeans',
-    imageURL: blueJeans,
-    cost: '$55.00',
-    category: 'Pants',
-  },
-  {
-    id: '4',
-    name: 'NB Shoes',
-    imageURL: brownBag,
-    cost: '$45.00',
-    category: 'Accessories',
-  },
+  // {
+  //   id: '3',
+  //   name: 'Blue Jeans',
+  //   imageURL: blueJeans,
+  //   cost: '$55.00',
+  //   category: 'Pants',
+  // },
+  // {
+  //   id: '4',
+  //   name: 'NB Shoes',
+  //   imageURL: brownBag,
+  //   cost: '$45.00',
+  //   category: 'Accessories',
+  // },
   {
     id: '5',
     name: 'Cargo Pants',
