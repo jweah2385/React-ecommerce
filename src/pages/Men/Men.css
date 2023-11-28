@@ -167,7 +167,7 @@
   }
 }
 
-@media ((max-width: 500px)) {
+@media ((max-width: 550px)) {
   .all-products-men {
   grid-template-rows:  1fr 1fr 1fr 1fr 1fr;
   grid-template-columns: 1fr  ;
