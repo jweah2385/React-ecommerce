@@ -146,15 +146,18 @@
   gap: 1rem
 }
 
-@media ((min-width: 1200px)) {
+@media ((min-width: 1250px)) {
   .clothes-images-men {
-    height: fit-content;
+    height: auto;
   }
 }
 
-
-@media ((max-width: 980px)) {
-  .all-products-men {
+@media ((max-width: 1200px)) {
+  .clothes-images-men {
+    height: auto;
+  }
+  
+ .all-products-men {
   grid-template-rows:  1fr 1fr 1fr;
   grid-template-columns: 1fr 1fr 1fr ;
   row-gap: 2rem;
@@ -162,6 +165,44 @@
   margin-right: 1.9rem;
 
   }
+
+  /* .shop-men {
+    background-color: blue;
+  } */
+}
+
+@media ((max-width: 1050px)) {
+   /* .shop-men {
+     background-color: green;
+   } */
+   .clothes-images-men {
+     
+     
+   }
+
+    .all-products-men {
+  grid-template-rows:  1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr ;
+  row-gap: 1.5rem;
+  column-gap: 1.1rem;
+  margin-right: 1rem;
+  margin-left: .5rem;
+  }
+.products-container-men {
+  margin-left: 1rem;
+  /* width: 100%; */
+}
+}
+
+@media ((max-width: 980px)) {
+  /* .all-products-men {
+  grid-template-rows:  1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr ;
+  row-gap: 2rem;
+  column-gap: 2rem;
+  margin-right: 1.9rem;
+
+  } */
 }
 
 @media ((max-width: 700px)) {
@@ -185,6 +226,7 @@
   margin-left: 1.5rem;
   margin-top: 1.5rem;
   }
+  
   .products-container-men > div {
   margin-left: 2.5rem;
 }
