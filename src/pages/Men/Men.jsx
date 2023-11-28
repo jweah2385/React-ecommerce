@@ -137,7 +137,7 @@ function Men() {
                         <div className="products-title-men">
                           <p className="products-text-men">{item.name}</p>
                         </div>
-                        <img src={item.imageURL} className="clothes-images" />
+                        <img src={item.imageURL} className="clothes-images-men" />
                         <div className="cost-category-men">
                           <div className="products-text2-men">
                             {item.category}
