@@ -128,7 +128,7 @@ function Men() {
               </div>
             </div>
 
-            {Tops ? (
+            {/* {Tops ? (
               <div className="all-products-men">
                 {MensProducts.filter((item) => item.category === 'Top').map(
                   (item) => (
@@ -278,7 +278,7 @@ function Men() {
               </div>
             ) : (
               <></>
-            )}
+            )} */}
           </div>
         </section>
       </div>
