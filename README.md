@@ -7,6 +7,7 @@ This is a front end eccomerce website
 - [Description](#description)
 - [License](#license)
 - [Preview](#preview)
+- [Deployement](#deployment)
 - [Technologies Used](#technologies-used)
 - [Contact](#contact)
 
@@ -24,6 +25,8 @@ This is a preview of the application
 
 ![ecommerce-front-end](https://github.com/jweah2385/React-ecommerce/assets/134350647/2bd9e8bd-1edf-43e7-857c-a8623a80c01a)
 
+## Deployment
+https://react-ecommerce-sigma-rosy.vercel.app/
 
 ## Technologies Used
 
