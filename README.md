@@ -12,7 +12,7 @@ This is a front end eccomerce website
 
 ## Description
 This is a front-end ecommerce website that allows the user to 
-filter throught the catergories of products in the store.
+filter through the catergories of products in the store.
 
 ## License
 
