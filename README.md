@@ -21,9 +21,9 @@ This project is licensed under the MIT License.
 ## Preview
 
 This is a preview of the application
+
 ![ecommerce-front-end](https://github.com/jweah2385/React-ecommerce/assets/134350647/2bd9e8bd-1edf-43e7-857c-a8623a80c01a)
 
-<img width="500" alt="Screenshot 2023-10-21 at 6 36 54 PM" >
 
 ## Technologies Used
 
