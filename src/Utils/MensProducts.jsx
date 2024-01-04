@@ -12,6 +12,7 @@ import blackPants from '../pages/Images/MenProducts/black-pants.jpg'
 import backPack from '../pages/Images/Attire/black-backpack.jpg';
 import hoodie from '../pages/Images/MenProducts/hoodie.jpg'
 
+
 const MensProducts = [
   {
     id: '1',
